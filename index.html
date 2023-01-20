@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <p id="message">
+            <h3> Введите данные ! </h3>
+            </p>
+            <div class="inputBox">
+                <input type="login" placeholder="login" id="login"> <!-- добавил id-->
+                <span>Type your login</span>
+            </div>
+            <div class="inputBox">
+                <input type="phone" placeholder="phone" id="phone"> <!-- добавил id-->
+                <span>Tupe your pasword</span>
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="E-mail" id="email"> <!-- добавил id-->
+                <span>Tupe your E-mail</span>
+                <div id="message-err"></div>
+                <button class="click">отправить</button>
+            </div>
+        </div>
+</body>
+<script src="app.js"></script>
+</html>
